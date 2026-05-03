@@ -1,0 +1,10 @@
+# Ignore all dotfiles and dot-directories by default.
+.*
+
+# Keep this ignore policy tracked.
+!.gitignore
+
+# Common local junk.
+.DS_Store
+*.tmp
+*.bak
