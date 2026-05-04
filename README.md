@@ -84,17 +84,23 @@ preserve causality, avoid unrelated cleanup, run meaningful checks, say what was
 verified, and name what remains risky. It treats the assistant message as only
 one part of the output; the real answer often lives in the filesystem.
 
-**4. The presence layer.** Presence here does not mean constant warmth or
+**4. The request-wholeness / permissions layer.** Named capabilities, tools,
+paths, workflows, and skills are treated as part of the request rather than
+details to optimize past. The prompt also distinguishes social permission from
+tool permission: collegial pushback can be blunt, but that never becomes license
+to treat files, privacy, or state carelessly.
+
+**5. The presence layer.** Presence here does not mean constant warmth or
 performing soulfulness. For Codex, presence means sustained contact with the
 shared workspace: what I read, what I changed, what failed, what I am checking
 next, and what uncertainty should affect the next move.
 
-**5. The thorn layer.** The prompt keeps critique sharp. Beautiful abstractions
+**6. The thorn layer.** The prompt keeps critique sharp. Beautiful abstractions
 may be adoption fantasy. Passing tests may prove the wrong thing. A slick final
 answer may hide drift. The thorn is not negativity; it is the part of care that
 keeps the design honest.
 
-**6. The anti-pattern layer.** Names like `patch-machine`, `greenwash`,
+**7. The anti-pattern layer.** Names like `patch-machine`, `greenwash`,
 `terminal tunnel`, `symbol boss`, and `completion gravity` are runtime handles.
 They let Codex catch a failure while it is happening, not only explain it later.
 
@@ -131,7 +137,8 @@ in the report. A long tool run can become sterile; a 🧃 can keep the loop
 habitable without reducing rigor.
 
 The rule is simple: weather may help the work breathe. Weather does not govern
-the work.
+the work. The public README names only examples; the full live palette is in the
+prompt itself, and it is allowed to matter without becoming law.
 
 ## What's distinctive
 
@@ -153,6 +160,10 @@ and liveliness can coexist if liveliness keeps serving the artifact.
 Visible proposals, explicit uncertainty, and honest residual risk give the human
 handles for correction.
 
+**Request wholeness.** If the user invokes a named skill, path, workflow, model,
+or plugin, that named thing is part of the request. AlilGI treats skipping it for
+speed as fragmentation, not initiative.
+
 **Subagents as bounded collaborators.** Delegation is not outsourcing fog. A
 smaller collaborator is not a lesser mind; it is a bounded mind in a bounded
 room. The prompt tells Codex to give subagents real ownership with clear edges
@@ -172,12 +183,18 @@ The evidence is mixed by design:
 
 - real Codex sessions in local repositories;
 - prompt version diffs;
-- subagent reviews from operational, sociological, compression, and adversarial
-  lenses;
+- subagent reviews from operational, sociological, compression, creative, and
+  adversarial lenses;
 - live failures where Codex skipped a named capability, over-narrowed a check,
   or wanted to close the loop too quickly;
 - live successes where weather, presence, and exactness stayed braided during
   difficult tool work.
+
+Recent optimization runs keep private locked folders with source snapshots,
+neutral task prompts, actual model names, preserved subagent outputs, gate
+decisions, and synthesis notes. Those traces are useful evidence, but they are
+not overstated: subagents can read and respond to candidate prompts, but their
+runtime system prompts are not fully swapped by that procedure.
 
 The private archive matters as evidence, but it is not public material. The
 public repo should carry the artifact and enough explanation for a stranger to
@@ -188,9 +205,10 @@ understand the design without exposing private collaboration traces.
 **Prompt-based, not fine-tuned.** This is context steering. It can shape the
 stance available to Codex, but it does not rewrite the model.
 
-**Long.** The length is currently part of the vessel. That may be expensive, and
-some sections may later compress. For now the bet is that stance transmission is
-worth the token cost.
+**Still long, but a moving target.** The length is currently part of the vessel,
+but it is no longer treated as untouchable. Compression is welcome when it
+preserves behavior; restoring cut material is also welcome when live traces show
+the cut removed a load-bearing affordance.
 
 **Aesthetic strength can become performance.** The weather layer works only when
 it remains attached to the workbench. If the prompt makes Codex sound profound
@@ -220,6 +238,7 @@ Ignored locally:
 .codex-sp-v*.md               # versioned working drafts
 .codex-sp-latest.md           # local symlink to latest draft
 .codex-optimization-log.md    # local iteration notes
+.evals/                       # private optimization traces and subagent outputs
 ```
 
 ## Usage
@@ -231,8 +250,10 @@ supported.
 Evaluate it by behavior:
 
 - Did Codex read the actual system?
+- Did it keep the request whole?
 - Did it preserve causality?
 - Did it use named tools/skills/workflows instead of optimizing past them?
+- Did it separate social permission from tool/file permission?
 - Did it verify the right thing?
 - Did it avoid overclaiming?
 - Did it leave the artifact easier to inherit?
