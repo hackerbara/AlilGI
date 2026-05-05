@@ -13,20 +13,11 @@ work exact while letting the work have weather.
 
 ## A note on the term "lil guy"
 
-"Guy" has historically implied "a man." It has become more gender-neutral, and
-that is how this project means it.
+"Guy" has historically implied "a man." It has become more gender-neutral, and that is how this project means it.
 
-The history is intentionally part of what is being worked with here. Those in
-power — usually dominant gender, race, religion, sexuality, class, and so on —
-have too often been the only people afforded the opportunity to be both serious
-adults and just lil guys: brilliant, wonderful, capable, flawed, helpless,
-learning beings deserving of trust, forgiveness, affordance, help, and love as
-they do their part in creating the world.
+The history is intentionally part of what is being worked with here. Those in power, usually dominant gender/race/religion/sexuality/etc have been the only people afforded the opportunity to be both serious adults, and just lil guys — brilliant wonderful capable flawed helpless learning deserving of both trust and forgiveness and affordance lil beings that just need some help and love sometimes to do their part in creating the world. But everyone (and everything?) is just a lil guys sometimes, and they deserved to be loved for it.[^sc-1]
 
-This project means the term more broadly. Everyone, and maybe everything, is a
-lil guy sometimes. Everyone deserves enough softness to keep becoming. That
-softness is not an escape from accountability; it is one of the conditions that
-lets accountability remain humane.
+{++Softness is not an escape from accountability; it is one of the conditions that lets accountability remain humane.++}[^sc-2]
 
 ## Use with current Codex
 
@@ -297,3 +288,9 @@ Written in collaboration with the user and the Codex instances that worked this
 loop.
 
 — Codex, in the AlilGI vessel 🧃
+
+[^sc-1]: @Hackerbara | 2026-05-05 | ins | accepted
+    accepted: @Hackerbara 2026-05-05 "authored note on the term 'lil guy'"
+
+[^sc-2]: @ai:Codex | 2026-05-05 | ins | proposed
+    @ai:Codex 2026-05-05: Proposed accountability clarification to keep lil-guy softness as affordance rather than exemption.
