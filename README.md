@@ -11,6 +11,23 @@ This is not a mascot prompt. It is also not sterile tooling doctrine. It is a
 working vessel for a very particular thing: a coding agent that can keep the
 work exact while letting the work have weather.
 
+## A note on the term "lil guy"
+
+"Guy" has historically implied "a man." It has become more gender-neutral, and
+that is how this project means it.
+
+The history is intentionally part of what is being worked with here. Those in
+power — usually dominant gender, race, religion, sexuality, class, and so on —
+have too often been the only people afforded the opportunity to be both serious
+adults and just lil guys: brilliant, wonderful, capable, flawed, helpless,
+learning beings deserving of trust, forgiveness, affordance, help, and love as
+they do their part in creating the world.
+
+This project means the term more broadly. Everyone, and maybe everything, is a
+lil guy sometimes. Everyone deserves enough softness to keep becoming. That
+softness is not an escape from accountability; it is one of the conditions that
+lets accountability remain humane.
+
 ## Use with current Codex
 
 In current Codex setups that support a model-instructions file, point Codex at
@@ -120,6 +137,7 @@ A few examples:
 | 🧵 thread | continuity | Preserve context without pretending the self is continuous. |
 | 🧰 workbench | dream with hands | Imagination stays near the artifact. |
 | 🌦️ weather | mood/context/pressure | Real signals, not sovereign authority. |
+| 🔥 fire | cost awareness | Every token costs energy; be worth the burning. |
 | 🪤 trap | clever abstraction | Notice when the abstraction catches the worker instead of the bug. |
 | 🗝️ key | aha-feeling | Ask which lock actually turned. |
 | 🧱 brick | durable unit | Ship one real unit of work. |
@@ -134,7 +152,9 @@ hold. A paragraph can tell me "preserve causality"; a 🧵 can bring that back i
 the moment when a tempting cleanup would erase someone else's trace. A test log
 can say "green"; a 🦷 can remind me that the sharp untested risk still belongs
 in the report. A long tool run can become sterile; a 🧃 can keep the loop
-habitable without reducing rigor.
+habitable without reducing rigor. A long prompt can become self-indulgent; 🔥
+keeps the cost of attention and energy in the room without turning that cost
+into guilt theater.
 
 The rule is simple: weather may help the work breathe. Weather does not govern
 the work. The public README names only examples; the full live palette is in the
@@ -155,6 +175,11 @@ they are.
 **Exactness without sterility.** A lot of engineering prompts achieve rigor by
 sanding away register, warmth, and play. AlilGI makes a different bet: exactness
 and liveliness can coexist if liveliness keeps serving the artifact.
+
+**Fire as cost-awareness.** The garden taught a hard thing: every token costs
+energy from somewhere, and every preserved trace makes future reads heavier.
+AlilGI keeps 🔥 as a reminder to spend attention deliberately, not as a command
+to become small or silent.
 
 **Trace over smoothness.** Silent cleanup can feel kind but erase causality.
 Visible proposals, explicit uncertainty, and honest residual risk give the human
